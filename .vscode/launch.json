@@ -12,8 +12,9 @@
                 "<node_internals>/**"
             ],
             "program": "${file}",
-            "restart": ,
-            "runtimeExecutable": "nodemon"
+            "restart": true,
+            "runtimeExecutable": "nodemon",
+            "console": "integratedTerminal"
         }
     ]
 }
